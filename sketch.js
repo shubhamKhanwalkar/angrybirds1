@@ -9,7 +9,7 @@ var backgroundImg,platform;
 var bird, slingshot;
 var score = 0;
 
-var gameState = "onSling";
+var gameState = "onsling";
 
 function preload() {
    getbackgroundImg();
@@ -83,6 +83,7 @@ function draw(){
     pig2.score();
     pig4.score(); 
     
+    
 }
 
 function mouseDragged(){
@@ -114,6 +115,6 @@ if(hour>06 && hour<16){
 
 //if(hour>1 && hour<06)
 else {
-    backgroundImg = loadImage("sprites/bg2.jpg");
+    backgroundImg = loadImage("bg2.jpg");
 }
 }
